@@ -53,3 +53,23 @@ Higher score → More conceptually similar.
 ---
 
 ## 📂 Project Structure
+
+
+---
+
+## ⚡ Features
+
+✔ Pretrained ResNet50 feature extraction  
+✔ Manual cosine similarity (no sklearn shortcut)  
+✔ Dataset indexing with NumPy caching  
+✔ Streamlit interactive UI  
+✔ Two operational modes  
+✔ Scalable structure  
+
+---
+
+## ▶️ How To Run
+
+```bash
+pip install -r requirements.txt
+streamlit run app.py
