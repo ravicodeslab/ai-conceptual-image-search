@@ -28,11 +28,11 @@ Not just color matching.
 
 ## 🧠 How It Works (Under the Hood)
 
-1️⃣ Image → Preprocessed to 224×224  
-2️⃣ Passed through pretrained **ResNet50 (ImageNet)**  
-3️⃣ Extract 2048-dimensional feature vector  
-4️⃣ Normalize vectors  
-5️⃣ Compute cosine similarity:
+ Image → Preprocessed to 224×224  
+ Passed through pretrained **ResNet50 (ImageNet)**  
+ Extract 2048-dimensional feature vector  
+ Normalize vectors  
+ Compute cosine similarity:
 
 \[
 Similarity = (A · B) / (||A|| ||B||)
